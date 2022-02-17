@@ -11,7 +11,7 @@ color: ${({filledColor, emptyColor, isCursorFilled}) => (
 )};
 `
 
-function TypingText({ children }) {
+function TypingText({ children, emptyColor = "white" }) {
   const [text, setText] = useState("")
   const [isCursorFilled, setIsCursorFilled] = useState(true);
   const isTyping = children !== text;
@@ -51,8 +51,8 @@ function TypingText({ children }) {
     <h2>
       {text}
       <Cursor
-        filledColor="red"
-        emptyColor="white"
+        filledColor="#f6511d"
+        emptyColor={emptyColor}
         isCursorFilled={isCursorFilled}
       >-</Cursor>
     </h2>

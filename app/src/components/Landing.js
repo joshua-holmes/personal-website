@@ -22,7 +22,10 @@ bottom: 0%;
 left: 50%;
 transform: translateX(-50%);
 width: 100%;
-margin-bottom: 15px;
+margin-bottom: 25px;
+`
+const MarginlessP = styled.p`
+margin: 0;
 `
 
 function Landing() {
@@ -34,8 +37,8 @@ function Landing() {
         <TypingText>software engineer</TypingText>
       </CenteringContainer>
       <BottomCenterContainer>
-        <p>scroll down</p>
-        <p><ArrowBarDown /></p>
+        <MarginlessP>scroll down</MarginlessP>
+        <MarginlessP><ArrowBarDown /></MarginlessP>
       </BottomCenterContainer>
     </FullContainer>
   )
