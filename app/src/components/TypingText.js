@@ -15,6 +15,7 @@ function TypingText({ children }) {
   const [text, setText] = useState("")
   const [isCursorFilled, setIsCursorFilled] = useState(true);
   const isTyping = children !== text;
+  const startDelay = 700;
   const maxTypingTime = 250;
   const minTypingTime = 25;
   const cursorDelay = 700;
@@ -28,20 +29,20 @@ function TypingText({ children }) {
           return Math.floor(Math.random() * (max - min) + min);
         }
         const waitTime = randInt(maxTypingTime, minTypingTime);
-        return setTimeout(() => typeWriter(newString), waitTime);
+        id = setTimeout(() => typeWriter(newString), waitTime);
       }
     }
     const cursorBlink = isFilled => (
-      setTimeout(() => {
+      id = setTimeout(() => {
         setIsCursorFilled(() => !isFilled)
         cursorBlink(!isFilled)
       }, cursorDelay)
     )
     let id;
     if (isTyping) {
-      id = typeWriter(text);
+      setTimeout(() => typeWriter(text), startDelay)
     } else {
-      id = cursorBlink(isCursorFilled);
+      cursorBlink(isCursorFilled);
     }
     return function cleanup() {clearTimeout(id)}
   }, [isTyping])
