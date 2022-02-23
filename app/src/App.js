@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.scss";
 import "./libs/font-awesome/css/font-awesome.css";
 import React, { useState } from 'react';
-import { List, XLg } from "react-bootstrap-icons"
+import TypingText from "./components/TypingText";
 
 function App() {
 
@@ -48,8 +48,8 @@ function App() {
       {/* <!-- End header --> */}
       <div id="lead">
         <div id="lead-content">
-          <h1>Ryan Fitzgerald</h1>
-          <h2>Software Engineer</h2>
+          <h1>Joshua Holmes</h1>
+          <TypingText blinkLimit={1}>Software Engineer</TypingText>
           <a href="#" className="btn-rounded-white">
             Download Resume
           </a>
@@ -59,9 +59,9 @@ function App() {
         <div id="lead-overlay"></div>
 
         <div id="lead-down">
-          <span>
+          <a href="#about">
             <i className="fa fa-chevron-down" aria-hidden="true"></i>
-          </span>
+          </a>
         </div>
         {/* <!-- End #lead-down --> */}
       </div>
@@ -71,7 +71,13 @@ function App() {
         <div className="container">
           <div className="row">
             <div className="col-md-4">
-              <h2 className="heading">About Me</h2>
+              <TypingText
+                className="heading"
+                emptyColor="white"
+                blinkLimit={4}
+              >
+                About Me
+              </TypingText>
             </div>
             <div className="col-md-8">
               <p>
@@ -95,7 +101,7 @@ function App() {
       {/* <!-- End #about --> */}
 
       <div id="experience" className="background-alt">
-        <h2 className="heading">Experience</h2>
+        <TypingText className="heading" blinkLimit={1}>Experience</TypingText>
         <div id="experience-timeline">
           <div className="vtimeline-icon">
             <i className="fa fa-map-marker"></i>
@@ -315,9 +321,9 @@ function App() {
               </p>
             </div>
             <div className="col-sm-2 top">
-              <span id="to-top">
+              <a id="to-top" href="#">
                 <i className="fa fa-chevron-up" aria-hidden="true"></i>
-              </span>
+              </a>
             </div>
             <div className="col-sm-5 social">
               <ul>

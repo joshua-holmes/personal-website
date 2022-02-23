@@ -213,7 +213,7 @@ footer {
 .top {
     text-align: center;
 
-    span {
+    a {
         cursor: pointer;
         display: block;
         margin: 15px auto 0 auto;
@@ -326,7 +326,7 @@ footer {
     text-align: center;
 
     h1, h2 {
-        margin: 0;
+        margin: 10px 0;
     }
 
     h1 {
@@ -368,7 +368,7 @@ footer {
     bottom: 15px;
     color: #fff;
 
-    span {
+    a {
         cursor: pointer;
         display: block;
         margin: 0 auto;
@@ -905,10 +905,6 @@ footer {
             padding: 10px 20px;
         }
     }
-
-    // #lead-down {
-    //     display: none;
-    // }
 
     .education-block {
         h3, span {
