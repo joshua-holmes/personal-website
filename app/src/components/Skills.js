@@ -26,7 +26,7 @@ function Skills() {
     <div id="skills">
       <TypingText className="heading" timeLimit={0.5}>Skills</TypingText>
       <ul>
-        {skills.map(skill => <li>{skill}</li>)}
+        {skills.map(skill => <li key={skill}>{skill}</li>)}
       </ul>
     </div>
   )
