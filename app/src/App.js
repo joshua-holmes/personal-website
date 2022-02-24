@@ -49,7 +49,7 @@ function App() {
       <div id="lead">
         <div id="lead-content">
           <h1>Joshua Holmes</h1>
-          <TypingText>Software Engineer</TypingText>
+          <TypingText timeLimit={0.5}>Software Engineer</TypingText>
           <a href="#" className="btn-rounded-white">
             Download Resume
           </a>
@@ -73,8 +73,7 @@ function App() {
             <div className="col-md-4">
               <TypingText
                 className="heading"
-                emptyColor="white"
-                blinkLimit={4}
+                timeLimit={0.5}
               >
                 About Me
               </TypingText>
@@ -101,7 +100,7 @@ function App() {
       {/* <!-- End #about --> */}
 
       <div id="experience" className="background-alt">
-        <TypingText className="heading" blinkLimit={1}>Experience</TypingText>
+        <TypingText className="heading" timeLimit={0.5}>Experience</TypingText>
         <div id="experience-timeline">
           <div className="vtimeline-icon">
             <i className="fa fa-map-marker"></i>
@@ -133,7 +132,6 @@ function App() {
             <span className="vtimeline-date">September 2015 – September 2016</span>
             <div className="vtimeline-block">
               <div
-                data-date="September 2015 – September 2016"
                 className="vtimeline-content"
               >
                 <h3>Employer Name</h3>
@@ -156,7 +154,6 @@ function App() {
             <span className="vtimeline-date">September 2015 – September 2016</span>
             <div className="vtimeline-block">
               <div
-                data-date="September 2015 – September 2016"
                 className="vtimeline-content"
               >
                 <h3>Employer Name</h3>
@@ -176,7 +173,7 @@ function App() {
       {/* <!-- End #experience --> */}
 
       <div id="education">
-        <h2 className="heading">Education</h2>
+        <TypingText className="heading" timeLimit={0.5}>Education</TypingText>
         <div className="education-block">
           <h3>University of Ottawa</h3>
           <span className="education-date">Sept 2016 - Sept 2017</span>
@@ -205,7 +202,7 @@ function App() {
       {/* <!-- End #education --> */}
 
       <div id="projects" className="background-alt">
-        <h2 className="heading">Projects</h2>
+        <TypingText className="heading" timeLimit={0.5}>Projects</TypingText>
         <div className="container">
           <div className="row">
             <div className="project shadow-large">
@@ -253,7 +250,7 @@ function App() {
       {/* <!-- End #projects --> */}
 
       <div id="skills">
-        <h2 className="heading">Skills</h2>
+        <TypingText className="heading" timeLimit={0.5}>Skills</TypingText>
         <ul>
           <li>JavaScript</li>
           <li>Python</li>
