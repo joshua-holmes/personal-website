@@ -49,7 +49,7 @@ function App() {
       <div id="lead">
         <div id="lead-content">
           <h1>Joshua Holmes</h1>
-          <TypingText blinkLimit={1}>Software Engineer</TypingText>
+          <TypingText>Software Engineer</TypingText>
           <a href="#" className="btn-rounded-white">
             Download Resume
           </a>
@@ -328,33 +328,13 @@ function App() {
             <div className="col-sm-5 social">
               <ul>
                 <li>
-                  <a href="https://github.com/" target="_blank">
+                  <a href="https://github.com/joshua-holmes" target="_blank">
                     <i className="fa fa-github" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://stackoverflow.com/" target="_blank">
-                    <i className="fa fa-stack-overflow" aria-hidden="true"></i>
                   </a>
                 </li>
                 <li>
                   <a href="https://linkedin.com/" target="_blank">
                     <i className="fa fa-linkedin" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.facebook.com/" target="_blank">
-                    <i className="fa fa-facebook" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/" target="_blank">
-                    <i className="fa fa-twitter" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://plus.google.com/" target="_blank">
-                    <i className="fa fa-google-plus" aria-hidden="true"></i>
                   </a>
                 </li>
               </ul>

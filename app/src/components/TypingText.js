@@ -10,6 +10,7 @@
 
 import { useEffect, useState } from "react";
 import styled from "styled-components";
+import variables from "../App.scss";
 
 const Cursor = styled.span`
 background-color: ${({filledColor, emptyColor, isCursorFilled}) => (
@@ -66,7 +67,7 @@ function TypingText({ children, emptyColor, className, blinkLimit }) {
     <h2 className={className}>
       {text}
       {showCursor ? <Cursor
-        filledColor="#f6511d"
+        filledColor={variables.cursor}
         emptyColor={emptyColor}
         isCursorFilled={isCursorFilled}
       >{emptyColor ? "-" : ""}</Cursor> : null}
