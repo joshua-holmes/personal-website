@@ -1,30 +1,38 @@
-import React from "react";
-import Container from "react-bootstrap/Container";
-import styled from "styled-components";
 import TypingText from "./TypingText";
 
-
-const Img = styled.img`
-border-radius: 100%;
-width: 280px;
-margin: auto;
-display: flex;
-`
-
-function About({ color }) {
+function About() {
   
-
   return (
-    <div style={{backgroundColor: color}}>
-      <Container>
-        <TypingText emptyColor={color}>About Me</TypingText>
-        <Img
-          src="./music (square).jpg"
-        />
-        <p>Experienced in Ruby on Rails and JavaScript based programming and a background in database and algorithm design. Possess strong skills in team-building and project management that help small companies get the support they need to be successful.</p>
-      </Container>
+    <div id="about">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-4">
+            <TypingText
+              className="heading"
+              timeLimit={0.5}
+            >
+              About Me
+            </TypingText>
+          </div>
+          <div className="col-md-8">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut
+              tortor nec nulla commodo malesuada sit amet vel lacus. Fusce
+              eget efficitur libero. Morbi dapibus porta quam laoreet
+              placerat. Donec eu vehicula neque. Donec viverra lorem nunc,
+              tempus euismod eros sollicitudin ut. Quisque et tincidunt
+              libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu
+              scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
+              ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas,
+              egestas ante et, congue eros. In consequat, mauris dapibus
+              tincidunt suscipit, ex libero aliquet diam, at maximus risus
+              enim non leo.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    
   )
 }
 

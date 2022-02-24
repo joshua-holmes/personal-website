@@ -1,5 +1,6 @@
-function NavLink({ id, to, children }) {
+function NavLink({ id, to, children, onClick = () => {} }) {
   const handleClick = () => {
+    onClick();
     const element = document.getElementById(to);
     element.scrollIntoView();
   }
