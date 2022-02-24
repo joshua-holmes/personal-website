@@ -220,7 +220,7 @@ footer {
 
 .top {
     text-align: center;
-    
+    $transition-time: 0.22s;
 
     a {
         cursor: pointer;
@@ -237,10 +237,16 @@ footer {
         transform: translateX(-50%);
         background-color: darken($background, 10%);
         z-index: 10;
+        transition: $transition-time;
     }
 
     i {
         color: $text;
+    }
+
+    .hidden {
+        bottom: -35px;
+        transition: $transition-time;
     }
 }
 

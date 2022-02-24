@@ -1,8 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.scss";
 import "./libs/font-awesome/css/font-awesome.css";
-import TypingText from "./components/TypingText";
-import NavLink from "./components/NavLink";
 
 import Nav from "./components/Nav";
 import Lead from "./components/Lead";

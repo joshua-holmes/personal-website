@@ -35,11 +35,11 @@ function TypingText({
   timeLimit,
 }) {
   const ref = useRef();
-  const test = useInViewport(ref);
+  const componentVisibility = useInViewport(ref);
   const [text, setText] = useState("");
   const [isCursorFilled, setIsCursorFilled] = useState(true);
   const [showCursor, setShowCursor] = useState(true);
-  const isVisible = test.enterCount > 0
+  const isVisible = componentVisibility.enterCount > 0
   const isTyping = children !== text;
   const startDelay = 700;
   const maxTypingTime = 250;
