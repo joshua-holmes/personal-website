@@ -8,7 +8,6 @@ function Lead() {
   const ref = useRef();
   const componentVisibility = useInViewport(ref);
   const isVisible = componentVisibility.inViewport;
-  console.log(isVisible);
   
   return (
     <div id="lead" ref={ref}>
