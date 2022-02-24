@@ -3,6 +3,7 @@ import "./App.scss";
 import "./libs/font-awesome/css/font-awesome.css";
 import React, { useState } from 'react';
 import TypingText from "./components/TypingText";
+import NavLink from "./components/NavLink";
 
 function App() {
 
@@ -26,22 +27,22 @@ function App() {
         </div>
         <ul id="menu" className="shadow">
           <li>
-            <a href="#about">About</a>
+            <NavLink to="about">About</NavLink>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <NavLink to="experience">Experience</NavLink>
           </li>
           <li>
-            <a href="#education">Education</a>
+            <NavLink to="education">Education</NavLink>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <NavLink to="projects">Projects</NavLink>
           </li>
           <li>
-            <a href="#skills">Skills</a>
+            <NavLink to="skills">Skills</NavLink>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <NavLink to="contact">Contact</NavLink>
           </li>
         </ul>
       </header>
@@ -59,9 +60,9 @@ function App() {
         <div id="lead-overlay"></div>
 
         <div id="lead-down">
-          <a href="#about">
+          <NavLink to="about">
             <i className="fa fa-chevron-down" aria-hidden="true"></i>
-          </a>
+          </NavLink>
         </div>
         {/* <!-- End #lead-down --> */}
       </div>
@@ -318,9 +319,9 @@ function App() {
               </p>
             </div>
             <div className="col-sm-2 top">
-              <a id="to-top" href="#">
+              <NavLink id="to-top" to="lead">
                 <i className="fa fa-chevron-up" aria-hidden="true"></i>
-              </a>
+              </NavLink>
             </div>
             <div className="col-sm-5 social">
               <ul>
