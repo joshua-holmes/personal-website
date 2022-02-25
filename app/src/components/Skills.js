@@ -20,6 +20,7 @@ function Skills() {
     "VBA",
     "HTML5",
     "CSS",
+    "Sass",
   ]
   
   return (

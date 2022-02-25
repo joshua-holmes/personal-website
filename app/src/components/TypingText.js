@@ -41,7 +41,7 @@ function TypingText({
   const [showCursor, setShowCursor] = useState(true);
   const isVisible = componentVisibility.enterCount > 0
   const isTyping = children !== text;
-  const startDelay = 700;
+  const startDelay = 500;
   const maxTypingTime = 250;
   const minTypingTime = 25;
   // 'cursorDelay' time between each blink in blink mode,

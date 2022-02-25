@@ -49,7 +49,6 @@ function Nav() {
           {links}
         </ul>
       </header>
-      {/* <!-- End header --> */}
     </>
   )
 }
