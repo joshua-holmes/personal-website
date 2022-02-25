@@ -30,7 +30,6 @@ function Contact() {
     emailjs.send(serviceId, templateId, formData, userId).then(
       // If message successfully sends
       (success) => {
-        console.log(success);
         setStatus({
           message: (
             <>
@@ -44,7 +43,6 @@ function Contact() {
       },
       // If message fails to send
       (error) => {
-        console.log(error);
         setStatus({
           message: (
             <>

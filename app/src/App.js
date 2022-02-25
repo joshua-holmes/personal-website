@@ -12,7 +12,7 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 
 function App() {
-  console.log(process.env);
+  
   return (
     <>
       <Nav />
