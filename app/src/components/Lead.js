@@ -14,7 +14,7 @@ function Lead() {
       <div id="lead-content">
         <h1>Joshua Holmes</h1>
         <TypingText timeLimit={0.5}>Software Engineer</TypingText>
-        <a href="#" className="btn-rounded-white">
+        <a href="./Joshua Holmes Resume.pdf" download className="btn-rounded-white">
           Download Resume
         </a>
       </div>
