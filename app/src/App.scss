@@ -755,6 +755,11 @@ footer {
 #contact-form {
     max-width: 500px;
     margin: 0 auto;
+    text-align: left;
+
+    .my-alert {
+        margin-top: 50px;
+    }
 
     input, textarea {
         display: block;
@@ -781,20 +786,23 @@ footer {
         resize: none;
     }
 
-    button {
-        display: block;
-        width: 100%;
-        background: #fff;
-        border-radius: 4px;
-        padding: 5px 10px;
-        border: none;
-        color: $base-color;
-        font-weight: 700;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-        @include transition();
-
-        &:hover {
-            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    form {
+        // margin-bottom: 50px;
+        button {
+            display: block;
+            width: 100%;
+            background: #fff;
+            border-radius: 4px;
+            padding: 5px 10px;
+            border: none;
+            color: $base-color;
+            font-weight: 700;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+            @include transition();
+    
+            &:hover {
+                box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            }
         }
     }
 }

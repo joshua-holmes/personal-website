@@ -9,9 +9,10 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 
 function App() {
-
+  console.log(process.env);
   return (
     <>
       <Nav />
@@ -21,34 +22,8 @@ function App() {
       <Education />
       <Projects />
       <Skills />
-
-      <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-          <form method="POST" action="https://formspree.io/email@email.com">
-            <input
-              type="hidden"
-              name="_subject"
-              value="Contact request from personal website"
-            />
-            <input
-              type="email"
-              name="_replyto"
-              placeholder="Your email"
-              required
-            />
-            <textarea
-              name="message"
-              placeholder="Your message"
-              required
-            ></textarea>
-            <button type="submit">Send</button>
-          </form>
-        </div>
-        {/* <!-- End #contact-form --> */}
-      </div>
-      {/* <!-- End #contact --> */}
-
+      <Contact />
+      
       <footer>
         <div className="container">
           <div className="row">
