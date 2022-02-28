@@ -21,6 +21,8 @@ function Skills() {
     "HTML5",
     "CSS",
     "Sass",
+    "MUI",
+    "Bootstrap",
   ]
   
   return (
