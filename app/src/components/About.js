@@ -16,8 +16,7 @@ function About() {
               Hi! I'm a Full Stack Software Engineer with a passion for learning and
               creating new technologies. I build apps that bring
               real-world value through practical application and entertainment.
-              The technologies I use to build full stack applications are JavaScript, Ruby, React,
-              Rails, and a little Python. My experience spans from building
+              The technologies I use to build full stack applications are JavaScript, Ruby, React, Rails, Python, and more recently Django. My experience spans from building
               relational databases, RESTful routes, and custom server-side
               logic, to vanilla CSS, CSS frameworks like MUI in React, and
               custom client-side logic.
