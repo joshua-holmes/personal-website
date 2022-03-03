@@ -23,6 +23,7 @@ function Skills() {
     "Sass",
     "MUI",
     "Bootstrap",
+    "Django",
   ]
   
   return (
