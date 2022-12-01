@@ -17,13 +17,6 @@ function Projects() {
       demo: "https://mini-maestro.jpholmes.com/",
     },
     {
-      name: "Faker Word Maker",
-      description: "The app that uses machine learning to generate words that look like real words, but do not already exist in the dictionary.",
-      image: "./images/faker-word-maker.jpg",
-      github: "https://github.com/joshua-holmes/faker-word-maker",
-      demo: "https://faker-word-maker.jpholmes.com/",
-    },
-    {
       name: "Dictionary Game",
       description: "A game based on the classic Hangman game, where you must use available letters to guess a hidden word. In Dictionary Game, a random word is selected from the dictionary, and you must use the dictionary definition to help you guess the word.",
       image: "./images/dictionary-game.jpg",

@@ -5,6 +5,15 @@ function Experience() {
 
   const jobs = [
     {
+      employer: "StatHero",
+      jobTitle: "Junior Developer",
+      date: "March 2022 - Current",
+      description: [
+        "Built client-facing features and game modes for StatHero app",
+        "Automated reporting and built internal tools",
+      ],
+    },
+    {
       employer: "Echelon Group",
       jobTitle: "Director of Operations",
       date: "June 2019 – October 2021",

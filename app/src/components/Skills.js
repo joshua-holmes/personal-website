@@ -4,26 +4,25 @@ function Skills() {
   
   const skills = [
     "JavaScript",
+    "Node.js",
+    "Express.js",
     "React",
     "Ruby",
     "Ruby on Rails",
     "Python",
+    "Flask",
+    "Bash",
+    "Linux",
+    "C++",
     "Docker",
     "RegEx",
     "SQL",
     "PostgreSQL",
-    "Bash",
-    "Linux",
-    "YAML",
-    "JSON",
-    "REST",
-    "VBA",
     "HTML5",
     "CSS",
     "Sass",
     "MUI",
     "Bootstrap",
-    "Django",
   ]
   
   return (
