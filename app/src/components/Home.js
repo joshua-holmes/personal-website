@@ -14,11 +14,13 @@ function Home() {
         <>
             <Nav />
             <Lead />
-            <About />
-            <Experience />
-            <Education />
-            <Projects />
-            <Skills />
+            <div id="content">
+                <About />
+                <Experience />
+                <Education />
+                <Projects />
+                <Skills />
+            </div>
             <Contact />
             <Footer />
         </>

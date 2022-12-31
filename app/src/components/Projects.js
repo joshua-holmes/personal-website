@@ -4,24 +4,23 @@ function Projects() {
 
   const projects = [
     {
-      name: "Docker Template: Ruby on Rails",
-      description: "This project serves as a template that will allow you to toss your Ruby on Rails (can optionally include React frontend) application into a folder, configure a few settings, then quickly have a Dockerized app with it's own contained environment!",
-      image: "./images/docker-ror.jpg",
-      github: "https://github.com/joshua-holmes/docker-template-ruby-on-rails",
-    },
-    {
-      name: "Mini Maestro",
-      description: "The app that walks you through composing your very own music, even if you have no experience.",
-      image: "./images/mini-maestro.jpg",
-      github: "https://github.com/joshua-holmes/mini-maestro",
-      demo: "https://mini-maestro.jpholmes.com/",
-    },
-    {
       name: "Dictionary Game",
       description: "A game based on the classic Hangman game, where you must use available letters to guess a hidden word. In Dictionary Game, a random word is selected from the dictionary, and you must use the dictionary definition to help you guess the word.",
       image: "./images/dictionary-game.jpg",
       github: "https://github.com/joshua-holmes/dictionary-game",
       demo: "https://dictionary-game.jpholmes.com/",
+    },
+    {
+      name: "Unoffical BeamMP Installer",
+      description: "Welcome to the Unoffical BeamMP Installer! This program was created to make it easier for Linux users to install and run the BeamMP (BeamNG.drive multiplayer) mod on Linux devices, since the mod is currently only available for Windows.",
+      image: "./images/beammp-linux.jpg",
+      github: "https://github.com/joshua-holmes/beammp-installer"
+    },
+    {
+      name: "Docker Template: Ruby on Rails",
+      description: "This project serves as a template that will allow you to toss your Ruby on Rails (can optionally include React frontend) application into a folder, configure a few settings, then quickly have a Dockerized app with it's own contained environment!",
+      image: "./images/docker-ror.jpg",
+      github: "https://github.com/joshua-holmes/docker-template-ruby-on-rails",
     },
   ]
   

@@ -9,8 +9,10 @@ function Experience() {
       jobTitle: "Junior Developer",
       date: "March 2022 - Current",
       description: [
-        "Built client-facing features and game modes for StatHero app",
-        "Automated reporting and built internal tools",
+        "Lead development and design of new affiliate and referral programs",
+        "Built client-facing game modes for StatHero app, such as PickEmX, StatHero Edge, and Mash",
+        "Maintained internal sports data API",
+        "Automated reporting and built internal tools"
       ],
     },
     {
