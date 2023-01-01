@@ -26,7 +26,7 @@ function Skills() {
   ]
   
   return (
-    <div id="skills">
+    <div id="skills" className="background">
       <TypingText className="heading" timeLimit={0.5}>Skills</TypingText>
       <ul>
         {skills.map(skill => <li key={skill}>{skill}</li>)}

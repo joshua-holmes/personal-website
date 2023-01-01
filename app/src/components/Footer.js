@@ -3,7 +3,7 @@
 function Footer() {
   
   return (
-    <footer>
+    <footer className="background">
       <div className="container">
         <div className="row">
           <div className="col-sm-5 copyright">

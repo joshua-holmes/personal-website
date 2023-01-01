@@ -1,3 +1,4 @@
+import React from "react";
 import TypingText from "./TypingText";
 
 function Projects() {
@@ -23,8 +24,8 @@ function Projects() {
       ]
     },
     {
-      name: "Unoffical BeamMP Installer",
-      description: "Welcome to the Unoffical BeamMP Installer! This program was created to make it easier for Linux users to install and run the BeamMP (BeamNG.drive multiplayer) mod on Linux devices, since the mod is currently only available for Windows.",
+      name: "Unoffical Linux BeamMP Installer",
+      description: "Welcome to the Unoffical Linux BeamMP Installer! This program automates the installation of the BeamNG multiplayer mod, BeamMP, on Linux using Proton, since the mod is natively available for Windows only.",
       image: "./images/beammp-linux.jpg",
       links: [
         {
@@ -48,13 +49,15 @@ function Projects() {
 
   // Create project link tags
   for (let proj of projects) {
-    const linkTags = (<>{
-      proj.links.map((linkObj, i) => (  
-        <>{i > 0 ? <span class="divider"> | </span> : ''}
-          <a key={linkObj.name} href={linkObj.link} target="_blank">{linkObj.name}</a>
-        </>
-      ))
-    }</>)
+    const linkTags = (
+      <>{
+        proj.links.map((linkObj, i) => (  
+          <React.Fragment key={linkObj.name}>{i > 0 ? <span className="divider"> | </span> : ''}
+            <a href={linkObj.link} target="_blank">{linkObj.name}</a>
+          </React.Fragment>
+        ))
+      }</>
+    )
     proj.linkTags = linkTags;
   }
 
@@ -64,7 +67,7 @@ function Projects() {
       <div className="container">
         <div className="row">
 
-          {projects.map(({name, description, image, linkTags}) => (
+          {projects.map(({name, description, image, linkTags}, i) => (
             <div key={name} className="project shadow-large">
               <div className="project-image">
                 <img src={image} className="shadow-large" />

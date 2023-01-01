@@ -3,7 +3,7 @@ import NavLink from "./NavLink";
 
 function About() {
   return (
-    <div id="about">
+    <div id="about" className="background">
       <div className="container">
         <div className="row">
           <div className="col-md-4">

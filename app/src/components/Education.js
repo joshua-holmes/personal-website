@@ -22,7 +22,7 @@ function Education() {
   ]
   
   return (
-    <div id="education">
+    <div id="education" className="background">
       <TypingText className="heading" timeLimit={0.5}>Education</TypingText>
       {education.map(({school, date, degree, description}) => (
         <div className="education-block" key={degree}>
