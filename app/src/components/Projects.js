@@ -5,21 +5,13 @@ function Projects() {
 
   const projects = [
     {
-      name: "Dictionary Game",
-      description: "A game based on the classic Hangman game, where you must use available letters to guess a hidden word. In Dictionary Game, a random word is selected from the dictionary, and you must use the dictionary definition to help you guess the word.",
-      image: "./images/dictionary-game.jpg",
+      name: "Docker Template: Ruby on Rails",
+      description: "This project serves as a template that will allow you to toss your Ruby on Rails (can optionally include React frontend) application into a folder, configure a few settings, then quickly have a Dockerized app with it's own contained environment!",
+      image: "./images/docker-ror.jpg",
       links: [
         {
           'name': 'Github',
-          'link': 'https://github.com/joshua-holmes/dictionary-game'
-        },
-        {
-          'name': 'Demo',
-          'link': 'https://dictionary-game.jpholmes.com/'
-        },
-        {
-          'name': 'App Store',
-          'link': 'https://play.google.com/store/apps/details?id=com.jpholmes.dictionary_game.twa'
+          'link': 'https://github.com/joshua-holmes/docker-template-ruby-on-rails'
         }
       ]
     },
@@ -35,13 +27,21 @@ function Projects() {
       ]
     },
     {
-      name: "Docker Template: Ruby on Rails",
-      description: "This project serves as a template that will allow you to toss your Ruby on Rails (can optionally include React frontend) application into a folder, configure a few settings, then quickly have a Dockerized app with it's own contained environment!",
-      image: "./images/docker-ror.jpg",
+      name: "Dictionary Game",
+      description: "A game based on the classic Hangman game, where you must use available letters to guess a hidden word. In Dictionary Game, a random word is selected from the dictionary, and you must use the dictionary definition to help you guess the word.",
+      image: "./images/dictionary-game.jpg",
       links: [
         {
           'name': 'Github',
-          'link': 'https://github.com/joshua-holmes/docker-template-ruby-on-rails'
+          'link': 'https://github.com/joshua-holmes/dictionary-game'
+        },
+        {
+          'name': 'Demo',
+          'link': 'https://dictionary-game.jpholmes.com/'
+        },
+        {
+          'name': 'App Store',
+          'link': 'https://play.google.com/store/apps/details?id=com.jpholmes.dictionary_game.twa'
         }
       ]
     },
@@ -67,7 +67,7 @@ function Projects() {
       <div className="container">
         <div className="row">
 
-          {projects.map(({name, description, image, linkTags}, i) => (
+          {projects.map(({name, description, image, linkTags}) => (
             <div key={name} className="project shadow-large">
               <div className="project-image">
                 <img src={image} className="shadow-large" />

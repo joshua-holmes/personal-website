@@ -9,10 +9,9 @@ function Experience() {
       jobTitle: "Junior Developer",
       date: "March 2022 - Current",
       description: [
-        "Lead development and design of new affiliate and referral programs",
-        "Built client-facing game modes for StatHero app, such as PickEmX, StatHero Edge, and Mash",
-        "Maintained internal sports data API",
-        "Automated reporting and built internal tools"
+        "Developed web scraping bot with Node.js and Puppeteer to retrieve data for internal MongoDB/Express.js sports API, saving tens of thousands of dollars per year",
+        "Lead backend development and design of new Affiliate and Referral programs with Python and Firebase to increase user base and engage new users",
+        "Automated reporting on a GCloud instance using Python scripting to cut time cost for team",
       ],
     },
     {
@@ -22,8 +21,7 @@ function Experience() {
       description: [
         "Direct report to President, managed and budgeted wide variety of internal projects",
         "Designed, refined, and automated high level process workflows using AgencyBloc CRM and created keystroke level procedural documentation",
-        "Improved data integrity and cleaned large amounts of data using Python and Excel",
-        "Designed, built, and implemented automated systems and databases, using Microsoft Access, Excel, Python, and other software",
+        "Designed, built, and implemented automated systems and databases using Python, MS Access, and Excel to track revenue in a highly complex financial landscape",
         "Built commission processing database and data entry system in Access from scratch",
       ],
     },

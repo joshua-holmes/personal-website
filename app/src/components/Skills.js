@@ -3,26 +3,26 @@ import TypingText from "./TypingText";
 function Skills() {
   
   const skills = [
-    "JavaScript",
-    "Node.js",
+    "Rust",
     "Python",
-    "Ruby",
+    "Node.js",
     "C++",
-    "Bash",
+    "Ruby",
+    "API development",
+    "Docker",
+    "containerization",
+    "GCloud",
     "Express.js",
+    "MongoDB",
+    "Firebase",
+    "SQL database design",
+    "NoSQL database design",
     "Flask",
     "Ruby on Rails",
-    "SQL database design",
-    "SQLless database design",
-    "PostgreSQL",
-    "Firebase",
-    "API development",
+    "Bash",
     "Linux",
-    "Docker",
     "deployment",
-    "RegEx",
-    "Git",
-    "REST"
+    "PostgreSQL",
   ]
   
   return (
