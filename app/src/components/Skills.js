@@ -21,6 +21,8 @@ function Skills() {
     "Express.js",
     "Flask",
     "Ruby on Rails",
+    "React",
+    "Angular",
     "Linux",
     "Bash",
     "DevOps",
