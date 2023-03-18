@@ -6,7 +6,7 @@ function Experience() {
   const jobs = [
     {
       employer: "StatHero",
-      jobTitle: "Junior Developer",
+      jobTitle: "Software Developer",
       date: "March 2022 - Current",
       description: [
         "Developed web scraping bot with Node.js and Puppeteer to retrieve data for internal MongoDB/Express.js sports API, saving tens of thousands of dollars per year",
