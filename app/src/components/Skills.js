@@ -12,8 +12,10 @@ function Skills() {
     "API development",
     "Docker",
     "containerization",
+    "AWS Lambda",
     "GCloud",
     "PostgreSQL",
+    "Redis",
     "MongoDB",
     "Firebase",
     "SQL database design",
@@ -27,6 +29,7 @@ function Skills() {
     "Bash",
     "DevOps",
     "C++",
+    "C",
   ]
   
   return (

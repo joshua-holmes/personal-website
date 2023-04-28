@@ -5,12 +5,21 @@ function Experience() {
 
   const jobs = [
     {
+      employer: "Corteva Agriscience",
+      jobTitle: "Software Engineer I",
+      date: "April 2023 - Current",
+      description: [
+        "Developed microservices using AWS Lambda, Python, and PostgreSQL"
+      ],
+    },
+    {
       employer: "StatHero",
       jobTitle: "Software Developer",
-      date: "March 2022 - Current",
+      date: "March 2022 - April 2023",
       description: [
-        "Developed web scraping bot with Node.js and Puppeteer to retrieve data for internal MongoDB/Express.js sports API, saving tens of thousands of dollars per year",
+        "Developed web scraping bot with Node.js and Puppeteer, deployed on a GCloud instance, to retrieve data for internal MongoDB/Express.js sports API, saving thousands per year",
         "Lead backend development and design of new Affiliate and Referral programs with Python and Firebase to increase user base and engage new users",
+        "Built frontend reporting tools for internal app using Angular and TS to provide financial visibility",
         "Automated reporting on a GCloud instance using Python scripting to cut time cost for team",
       ],
     },
@@ -29,13 +38,9 @@ function Experience() {
       employer: "Self-Employed",
       jobTitle: "Freelance Hornist",
       date: "December 2014 - October 2021",
-      description: "Performed French Horn for orchestras, ballets, operas, chamber groups, and more.",
-    },
-    {
-      employer: "Music Center Studios",
-      jobTitle: "Studio Instructor",
-      date: "March 2019 - April 2020",
-      description: "Prepared and taught group and individual piano lessons.",
+      description: [
+        "Performed French Horn for orchestras, ballets, operas, chamber groups, and more"
+      ],
     },
   ]
   
