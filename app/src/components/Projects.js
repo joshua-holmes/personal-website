@@ -10,8 +10,8 @@ function Projects() {
       image: "./images/docker-ror.jpg",
       links: [
         {
-          'name': 'Github',
-          'link': 'https://github.com/joshua-holmes/docker-template-ruby-on-rails'
+          "name": "Github",
+          "link": "https://github.com/joshua-holmes/docker-template-ruby-on-rails"
         }
       ]
     },
@@ -21,8 +21,19 @@ function Projects() {
       image: "./images/beammp-linux.jpg",
       links: [
         {
-          'name': 'Github',
-          'link': 'https://github.com/joshua-holmes/beammp-installer'
+          "name": "Github",
+          "link": "https://github.com/joshua-holmes/beammp-installer"
+        }
+      ]
+    },
+    {
+      name: "Google Photos Metadata Fix",
+      description: "This is a command line application that fixes metadata for Google Photos exported pics ",
+      image: "./images/metadata-fix.jpg",
+      links:[
+        {
+          "name": "Github",
+          "link": "https://github.com/joshua-holmes/google-photos-metadata-fix"
         }
       ]
     },
@@ -32,16 +43,16 @@ function Projects() {
       image: "./images/dictionary-game.jpg",
       links: [
         {
-          'name': 'Github',
-          'link': 'https://github.com/joshua-holmes/dictionary-game'
+          "name": "Github",
+          "link": "https://github.com/joshua-holmes/dictionary-game"
         },
         {
-          'name': 'Demo',
-          'link': 'https://dictionary-game.jpholmes.com/'
+          "name": "Demo",
+          "link": "https://dictionary-game.jpholmes.com/"
         },
         {
-          'name': 'App Store',
-          'link': 'https://play.google.com/store/apps/details?id=com.jpholmes.dictionary_game.twa'
+          "name": "App Store",
+          "link": "https://play.google.com/store/apps/details?id=com.jpholmes.dictionary_game.twa"
         }
       ]
     },
@@ -52,7 +63,7 @@ function Projects() {
     const linkTags = (
       <>{
         proj.links.map((linkObj, i) => (  
-          <React.Fragment key={linkObj.name}>{i > 0 ? <span className="divider"> | </span> : ''}
+          <React.Fragment key={linkObj.name}>{i > 0 ? <span className="divider"> | </span> : ""}
             <a href={linkObj.link} target="_blank">{linkObj.name}</a>
           </React.Fragment>
         ))
