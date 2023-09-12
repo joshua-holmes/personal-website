@@ -3,11 +3,13 @@ import TypingText from "./TypingText";
 function Skills() {
   
   const skills = [
-    "Rust",
     "Python",
     "Node.js",
     "JavaScript",
     "TypeScript",
+    "Rust",
+    "C++",
+    "C",
     "Ruby",
     "API development",
     "Docker",
@@ -28,8 +30,6 @@ function Skills() {
     "Linux",
     "Bash",
     "DevOps",
-    "C++",
-    "C",
   ]
   
   return (

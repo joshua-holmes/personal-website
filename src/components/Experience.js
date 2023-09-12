@@ -2,14 +2,15 @@ import TypingText from "./TypingText";
 import React from "react";
 
 function Experience() {
-
   const jobs = [
     {
       employer: "Corteva Agriscience",
       jobTitle: "Software Engineer I",
       date: "April 2023 - Current",
       description: [
-        "Developed microservices using AWS Lambda, Python, and PostgreSQL"
+        "Developed microservices to retrieve satellite imagery of farm fields, save in PostgreSQL DB and AWS S3 buckets, and serve to customers via API, using AWS Lambda, S3, RDS, Python and Flask",
+        "Built support for automated unit testing in GitLab CI/CD pipeline using Pytest and Docker",
+        "Setup testing framework for React app using Playwright and TypeScript",
       ],
     },
     {
@@ -39,16 +40,18 @@ function Experience() {
       jobTitle: "Freelance Hornist",
       date: "December 2014 - October 2021",
       description: [
-        "Performed French Horn for orchestras, ballets, operas, chamber groups, and more"
+        "Performed French Horn for orchestras, ballets, operas, chamber groups, and more",
       ],
     },
-  ]
-  
+  ];
+
   return (
     <div id="experience" className="background-alt">
-      <TypingText className="heading" timeLimit={0.5}>Experience</TypingText>
+      <TypingText className="heading" timeLimit={0.5}>
+        Experience
+      </TypingText>
       <div id="experience-timeline">
-        {jobs.map(({employer, jobTitle, date, description}) => (
+        {jobs.map(({ employer, jobTitle, date, description }) => (
           <React.Fragment key={date}>
             <div className="vtimeline-icon">
               <i className="fa fa-map-marker"></i>
@@ -56,15 +59,17 @@ function Experience() {
             <div className="vtimeline-point">
               <span className="vtimeline-date">{date}</span>
               <div className="vtimeline-block">
-                <div
-                  className="vtimeline-content"
-                >
+                <div className="vtimeline-content">
                   <h3>{jobTitle}</h3>
                   <h4>{employer}</h4>
                   {typeof description === "string" ? (
                     <p>{description}</p>
                   ) : (
-                    <ul>{description.map(item => <li key={item}>{item}</li>)}</ul>
+                    <ul>
+                      {description.map((item) => (
+                        <li key={item}>{item}</li>
+                      ))}
+                    </ul>
                   )}
                 </div>
               </div>
@@ -73,7 +78,7 @@ function Experience() {
         ))}
       </div>
     </div>
-  )
+  );
 }
 
 export default Experience;
