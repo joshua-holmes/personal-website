@@ -8,8 +8,9 @@ function Skills() {
     "JavaScript",
     "TypeScript",
     "Rust",
-    "C++",
     "C",
+    "C++",
+    "Bash",
     "Ruby",
     "API development",
     "Docker",
@@ -28,7 +29,6 @@ function Skills() {
     "React",
     "Angular",
     "Linux",
-    "Bash",
     "DevOps",
   ]
   
