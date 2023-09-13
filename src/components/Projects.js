@@ -5,28 +5,6 @@ function Projects() {
 
   const projects = [
     {
-      name: "Docker Template: Ruby on Rails",
-      description: "This project serves as a template that will allow you to toss your Ruby on Rails (can optionally include React frontend) application into a folder, configure a few settings, then quickly have a Dockerized app with it's own contained environment!",
-      image: "./images/docker-ror.jpg",
-      links: [
-        {
-          "name": "Github",
-          "link": "https://github.com/joshua-holmes/docker-template-ruby-on-rails"
-        }
-      ]
-    },
-    {
-      name: "Unoffical Linux BeamMP Installer",
-      description: "Welcome to the Unoffical Linux BeamMP Installer! This program automates the installation of the BeamNG multiplayer mod, BeamMP, on Linux using Proton, since the mod is natively available for Windows only.",
-      image: "./images/beammp-linux.jpg",
-      links: [
-        {
-          "name": "Github",
-          "link": "https://github.com/joshua-holmes/beammp-installer"
-        }
-      ]
-    },
-    {
       name: "Google Photos Metadata Fix",
       description: "This is a command line application that fixes metadata for Google Photos exported pics ",
       image: "./images/metadata-fix.jpg",
@@ -38,21 +16,13 @@ function Projects() {
       ]
     },
     {
-      name: "Dictionary Game",
-      description: "A game based on the classic Hangman game, where you must use available letters to guess a hidden word. In Dictionary Game, a random word is selected from the dictionary, and you must use the dictionary definition to help you guess the word.",
-      image: "./images/dictionary-game.jpg",
+      name: "Docker Template: Ruby on Rails",
+      description: "This project serves as a template that will allow you to toss your Ruby on Rails (can optionally include React frontend) application into a folder, configure a few settings, then quickly have a Dockerized app with it's own contained environment!",
+      image: "./images/docker-ror.jpg",
       links: [
         {
           "name": "Github",
-          "link": "https://github.com/joshua-holmes/dictionary-game"
-        },
-        {
-          "name": "Demo",
-          "link": "https://dictionary-game.jpholmes.com/"
-        },
-        {
-          "name": "App Store",
-          "link": "https://play.google.com/store/apps/details?id=com.jpholmes.dictionary_game.twa"
+          "link": "https://github.com/joshua-holmes/docker-template-ruby-on-rails"
         }
       ]
     },
