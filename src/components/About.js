@@ -9,7 +9,7 @@ function About() {
             <TypingText className="heading" timeLimit={0.5}>
               About Me
             </TypingText>
-            <img src="./images/profile-pic-city.jpeg" alt="profile pic" />
+            <img src="./images/profile-pic-sm.jpg" alt="profile pic" />
           </div>
           <div className="col-md-8">
             <p>
