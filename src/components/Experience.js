@@ -8,9 +8,9 @@ function Experience() {
       jobTitle: "Software Engineer I",
       date: "April 2023 - Current",
       description: [
-        "Developed microservices to retrieve satellite imagery of farm fields, save in PostgreSQL DB and AWS S3 buckets, and serve to customers via API, using AWS Lambda, S3, RDS, Python and Flask",
-        "Built support for automated unit testing in GitLab CI/CD pipeline using Pytest and Docker",
-        "Setup testing framework for React app using Playwright and TypeScript",
+        "Developed CI/CD automated scripts to manage the team's GitLab settings in one place with Python, Terraform, Docker, and Bash. Presented it to 50+ EMs, SEs, and PDMs",
+        "Leveraged Python and scheduled CI/CD pipelines to thoughtfully clean 4+ billion unnecessary images from PostgreSQL DB",
+        "Maintained microservices to retrieve satellite imagery of farm fields, save in Postgres DB and AWS S3 buckets, and serve via API, using AWS Lambda, S3, RDS, Python and Flask",
       ],
     },
     {
@@ -19,7 +19,7 @@ function Experience() {
       date: "March 2022 - April 2023",
       description: [
         "Developed web scraping bot with Node.js and Puppeteer, deployed on a GCloud instance, to retrieve data for internal MongoDB/Express.js sports API, saving thousands per year",
-        "Lead backend development and design of new Affiliate and Referral programs with Python and Firebase to increase user base and engage new users",
+        "Architected and developed new Affiliate and Referral programs with Python and Firebase to increase user base and engage new users",
         "Built frontend reporting tools for internal app using Angular and TS to provide financial visibility",
         "Automated reporting on a GCloud instance using Python scripting to cut time cost for team",
       ],
