@@ -34,7 +34,7 @@ function Projects() {
       <>{
         proj.links.map((linkObj, i) => (  
           <React.Fragment key={linkObj.name}>{i > 0 ? <span className="divider"> | </span> : ""}
-            <a href={linkObj.link} target="_blank">{linkObj.name}</a>
+            <a href={linkObj.link} target="_blank" rel="noreferrer">{linkObj.name}</a>
           </React.Fragment>
         ))
       }</>
@@ -43,7 +43,7 @@ function Projects() {
   }
 
   return (
-    <div id="projects" className="background-alt">
+    <div id="projects" className="background">
       <TypingText className="heading" timeLimit={0.5}>Projects</TypingText>
       <div className="container">
         <div className="row">
@@ -51,7 +51,7 @@ function Projects() {
           {projects.map(({name, description, image, linkTags}) => (
             <div key={name} className="project shadow-large">
               <div className="project-image">
-                <img src={image} className="shadow-large" />
+                <img src={image} className="shadow-large" alt={name} />
               </div>
               {/* <!-- End .project-image --> */}
               <div className="project-info">
@@ -62,6 +62,7 @@ function Projects() {
               {/* <!-- End .project-info --> */}
             </div>
           ))}
+
         </div>
       </div>
     </div>
