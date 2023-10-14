@@ -40,7 +40,7 @@ function OpenSource() {
       links: [
         {
           name: "GitHub",
-          link: "https://github.com/rust-embedded/discovery",
+          link: "https://github.com/probe-rs/probe-rs",
         },
       ],
     },
