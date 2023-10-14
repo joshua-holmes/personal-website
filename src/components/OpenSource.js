@@ -33,7 +33,7 @@ function OpenSource() {
       ],
     },
     {
-      name: "Rust-Embedded/Discovery",
+      name: "probe-rs/probe-rs",
       contributions: [
         'Corrected misspelling of the word "occurred" across repo using Rust',
       ],
