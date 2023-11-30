@@ -25,11 +25,10 @@ function About() {
               for clients.
             </p>
             <p>
-              Lately, I have started contributing to open source projects that I
-              am passionate about. So far, this includes Godot (game engine),
-              Firefox, and Rust-Embedded/Discovery. These are projects that I
-              believe are useful to the world and want to see succeed, so I help
-              them succeed by contributing code!
+              I have also started contributing to FOSS (free open source
+              software) on a project called Servo, which is an embeddable,
+              independent, memory-safe, modular, parallel web rendering engine.
+              I am working on implementing flexbox in the layout engine!
             </p>
             <p>
               I am also an experienced classical hornist and pianist, with over
