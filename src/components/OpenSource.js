@@ -8,6 +8,7 @@ function OpenSource() {
   const projects = [
     {
       name: "Servo",
+      description: "The embeddable, independent, memory-safe, modular, parallel web rendering engine",
       contributions: [
         "Working on implementing flexbox in the layout engine",
       ],
@@ -21,6 +22,7 @@ function OpenSource() {
     },
     {
       name: "probe-rs/probe-rs",
+      description: "A modern, embedded debugging toolkit, written in Rust",
       contributions: [
         'Corrected misspelling of the word "occurred" across repo using Rust',
       ],
@@ -58,18 +60,8 @@ function OpenSource() {
       <div className="container">
         <p className="section-description">{blurb}</p>
         <div className="row">
-          {projects.map(({ name, contributions, image, linkTags }) => (
+          {projects.map(({ name, contributions, image, linkTags, description }) => (
             <div key={name} className="project shadow-large">
-              <div className="project-info">
-                <h3>{name}</h3>
-                <ul>
-                  {contributions.map((item) => (
-                    <li key={item}>{item}</li>
-                  ))}
-                </ul>
-                {linkTags}
-              </div>
-              {/* <!-- End .project-info --> */}
               <div className="project-image">
                 <img
                   src={image || "./images/coding-icon.jpg"}
@@ -77,6 +69,18 @@ function OpenSource() {
                   alt={name}
                 />
               </div>
+              <div className="project-info">
+                <h3>{name}</h3>
+                <h4>{description}</h4>
+                <ul>
+                  {contributions.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+                <br/>
+                {linkTags}
+              </div>
+              {/* <!-- End .project-info --> */}
               {/* <!-- End .project-image --> */}
             </div>
           ))}
