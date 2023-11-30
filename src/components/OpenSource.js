@@ -7,28 +7,15 @@ function OpenSource() {
 
   const projects = [
     {
-      name: "Godot",
+      name: "Servo",
       contributions: [
-        "Currently learning how to use Godot so I can contribute. This is currently my main focus, though.",
+        "Working on implementing flexbox in the layout engine",
       ],
-      image: "./images/godot.png",
-      links: [
-        {
-          name: "Github",
-          link: "https://github.com/godotengine/godot",
-        },
-      ],
-    },
-    {
-      name: "Firefox",
-      contributions: [
-        "Fixed issue with repo cloning Python script for Windows, where it expects to find Mercurial exe, but expects wrong name",
-      ],
-      image: "./images/firefox.png",
+      image: "./images/servo.png",
       links: [
         {
           name: "Product Page",
-          link: "https://www.mozilla.org/en-US/firefox/new/",
+          link: "https://servo.org",
         },
       ],
     },
