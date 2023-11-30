@@ -40,6 +40,7 @@ $border: #dcd9d9;
 
 // Define text colors
 $heading: #374054;
+$heading-light: #7e8890;
 $text: #74808a;
 
 // Define link colors
@@ -549,7 +550,7 @@ p.section-description {
     h4 {
         font-size: 1.2em;
         font-weight: 300;
-        color: #7e8890;
+        color: $heading-light;
         margin: 0 0 15px 0;
     }
 
@@ -707,6 +708,8 @@ p.section-description {
     transform: translateY(-50%);
     margin-left: 300px;
     padding: 15px;
+    right: 0;
+    min-width: 65%;
 
     h3 {
         font-size: 1.5em;
@@ -715,14 +718,28 @@ p.section-description {
         margin: 0 0 15px 0;
     }
 
-    p, li {
+    h4 {
+        font-size: 1.2em;
+        font-weight: 300;
+        color: $heading-light;
+        clear: both;
+        margin: 0 0 15px 0;
+    }
+
+    p {
         color: $text;
         margin: 0 0 15px 0;
         font-size: 0.9em;
     }
 
     li {
-        text-align: left;
+        color: $text;
+        margin: 0 0 15px 0;
+        font-size: 0.9em;
+    }
+
+    ul {
+        display: inline-block;
     }
 }
 
@@ -947,6 +964,10 @@ p.section-description {
         h2 {
             font-size: 1.75em;
         }
+    }
+
+    .project-info {
+        min-width: auto;
     }
 
 }
