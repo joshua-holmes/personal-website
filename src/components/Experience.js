@@ -8,9 +8,10 @@ function Experience() {
       jobTitle: "Software Engineer I",
       date: "April 2023 - Current",
       description: [
-        "Developed CI/CD automated scripts to manage the team's GitLab settings in one place with Python, Terraform, Docker, and Bash. Presented it to 50+ EMs, SEs, and PDMs",
-        "Leveraged Python and scheduled CI/CD pipelines to thoughtfully clean 4+ billion unnecessary images from PostgreSQL DB",
-        "Maintained microservices to retrieve satellite imagery of farm fields, save in Postgres DB and AWS S3 buckets, and serve via API, using AWS Lambda, S3, RDS, Python and Flask",
+        "Developed scripts that run in CI/CD pipeline to manage the team's GitLab settings in one place with Python, Terraform, Docker, and Bash. Presented it to 50+ Engineering Managers and Product Development Managers.",
+        "Updated old code bases to modern development standards using Cookiecutter to improve functionality and cut development costs.",
+        "Managed unit-tested microservices that retrieve satellite imagery of farm fields, save in PostgreSQL DB and AWS S3 buckets, and serve using Flask API, AWS Lambda, and RDS.",
+        "Participated in team philosophy of \"no ivory towers\", which means everyone does some of everything: DevOps, QA testing, backend API, and frontend UI components.",
       ],
     },
     {
@@ -18,10 +19,10 @@ function Experience() {
       jobTitle: "Software Developer",
       date: "March 2022 - April 2023",
       description: [
-        "Developed web scraping bot with Node.js and Puppeteer, deployed on a GCloud instance, to retrieve data for internal MongoDB/Express.js sports API, saving thousands per year",
+        "Utilized Node.js and Puppeteer to develop and deploy web scraping bot on Google Cloud instance, to retrieve data for internal MongoDB/Express.js sports API, saving $50,000 per year.",
         "Architected and developed new Affiliate and Referral programs with Python and Firebase to increase user base and engage new users",
         "Built frontend reporting tools for internal app using Angular and TS to provide financial visibility",
-        "Automated reporting on a GCloud instance using Python scripting to cut time cost for team",
+        "Collaborated on stages of systems development lifecycle from requirement gathering to production releases.",
       ],
     },
     {
