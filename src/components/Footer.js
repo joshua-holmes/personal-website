@@ -14,17 +14,17 @@ function Footer() {
           <div className="col-sm-5 social">
             <ul>
               <li>
-                <a href="https://github.com/joshua-holmes" target="_blank">
+                <a href="https://github.com/joshua-holmes" target="_blank" rel="noreferrer">
                   <i className="fa fa-github" aria-hidden="true"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/joshua-phillip-holmes/" target="_blank">
+                <a href="https://www.linkedin.com/in/joshua-phillip-holmes/" target="_blank" rel="noreferrer">
                   <i className="fa fa-linkedin" aria-hidden="true"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.youtube.com/@joshua-holmes" target="_blank">
+                <a href="https://www.youtube.com/@joshua-holmes" target="_blank" rel="noreferrer">
                   <i className="fa fa-youtube" aria-hidden="true"></i>
                 </a>
               </li>
