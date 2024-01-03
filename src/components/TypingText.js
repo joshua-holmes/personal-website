@@ -17,7 +17,7 @@
 import { useEffect, useState, useRef } from "react";
 import styled from "styled-components";
 import variables from "../App.scss";
-import { useInViewport } from 'react-in-viewport';
+import { useInViewport } from "react-in-viewport";
 
 const Cursor = styled.span`
   background-color: ${({ filledColor, emptyColor, isCursorFilled }) =>
@@ -39,7 +39,7 @@ function TypingText({
   const [text, setText] = useState("");
   const [isCursorFilled, setIsCursorFilled] = useState(true);
   const [showCursor, setShowCursor] = useState(true);
-  const isVisible = componentVisibility.enterCount > 0
+  const isVisible = componentVisibility.enterCount > 0;
   const isTyping = children !== text;
   const startDelay = 500;
   const maxTypingTime = 250;
@@ -85,22 +85,30 @@ function TypingText({
         clearTimeout(id);
       };
     }
-    
-  }, [isTyping, isVisible]);
+  }, [
+    isTyping,
+    isVisible,
+    blinkLimit,
+    children,
+    cursorDelay,
+    emptyColor,
+    isCursorFilled,
+    // text,
+  ]);
 
   return (
-      <h2 className={className} ref={ref}>
-        {text}
-        {showCursor ? (
-          <Cursor
-            filledColor={variables.cursor}
-            emptyColor={emptyColor}
-            isCursorFilled={isCursorFilled}
-          >
-            {emptyColor ? "-" : ""}
-          </Cursor>
-        ) : null}
-      </h2>
+    <h2 className={className} ref={ref}>
+      {text}
+      {showCursor ? (
+        <Cursor
+          filledColor={variables.cursor}
+          emptyColor={emptyColor}
+          isCursorFilled={isCursorFilled}
+        >
+          {emptyColor ? "-" : ""}
+        </Cursor>
+      ) : null}
+    </h2>
   );
 }
 
