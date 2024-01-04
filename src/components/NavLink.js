@@ -5,7 +5,7 @@ function NavLink({ id, to, children, className, onClick = () => {} }) {
     element.scrollIntoView();
   };
   return (
-    <a
+    <a // eslint-disable-line jsx-a11y/anchor-is-valid
       id={id}
       style={{ cursor: "pointer" }}
       onClick={handleClick}
