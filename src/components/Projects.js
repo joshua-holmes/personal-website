@@ -17,7 +17,7 @@ function Projects() {
     },
     {
       name: "Google Photos Metadata Fix",
-      description: "This is a command line application that fixes metadata for Google Photos exported pics ",
+      description: "This is a command line application that fixes metadata for photos exported from Google Photos.",
       image: "./images/metadata-fix.jpg",
       links:[
         {
