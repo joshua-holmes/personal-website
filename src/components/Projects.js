@@ -5,6 +5,17 @@ function Projects() {
 
   const projects = [
     {
+      name: "Video Game in Rust using Vulkan API",
+      description: "A video game written entirely in Rust, using a custom-built game engine rendered with Vulkan API.",
+      image: "./images/a-game.png",
+      links:[
+        {
+          "name": "Github",
+          "link": "https://github.com/joshua-holmes/unknown-game"
+        }
+      ]
+    },
+    {
       name: "Google Photos Metadata Fix",
       description: "This is a command line application that fixes metadata for Google Photos exported pics ",
       image: "./images/metadata-fix.jpg",

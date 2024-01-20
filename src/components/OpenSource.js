@@ -10,7 +10,7 @@ function OpenSource() {
       name: "Servo",
       description: "The embeddable, independent, memory-safe, modular, parallel web rendering engine",
       contributions: [
-        "Working on implementing flexbox in the layout engine",
+        "Worked on implementing flexbox in the layout engine",
       ],
       image: "./images/servo.png",
       links: [
