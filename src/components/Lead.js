@@ -16,7 +16,7 @@ function Lead() {
         <div id="lead-content">
           <h1>Joshua Holmes</h1>
           <TypingText timeLimit={0.5}>Software Engineer</TypingText>
-          <a download target="_blank" href="https://app.enhancv.com/share/37dd37cb/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic" className="btn-rounded-white" rel="noreferrer">
+          <a download target="_blank" href="./Joshua_Holmes_Resume.pdf" className="btn-rounded-white" rel="noreferrer">
             Download Resume
           </a>
         </div>
