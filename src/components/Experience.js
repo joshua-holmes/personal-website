@@ -8,10 +8,10 @@ function Experience() {
       jobTitle: "Software Engineer I",
       date: "April 2023 - Current",
       description: [
+        "Managed unit-tested microservices that retrieve satellite imagery of farm fields, save in AWS RDS (PostgreSQL DB) and AWS S3 buckets, and serve using Flask API, AWS Lambda.",
+        "Updated old code bases to modern development standards using Terraform and GitLab CI/CD pipeline to improve code base consistency, code smell, and cut development costs",
+        "Built frontend UI components using React/Typescript along with backend API routes and tests with Bottle/Pydantic for new Dynamic Structured Notes service",
         "Developed scripts that run in CI/CD pipeline to manage the team's GitLab settings in one place with Python, Terraform, Docker, and Bash. Presented it to 50+ Engineering Managers and Product Development Managers.",
-        "Updated old code bases to modern development standards using Cookiecutter to improve functionality and cut development costs.",
-        "Managed unit-tested microservices that retrieve satellite imagery of farm fields, save in PostgreSQL DB and AWS S3 buckets, and serve using Flask API, AWS Lambda, and RDS.",
-        "Participated in team philosophy of \"no ivory towers\", which means everyone does some of everything: DevOps, QA testing, backend API, and frontend UI components.",
       ],
     },
     {

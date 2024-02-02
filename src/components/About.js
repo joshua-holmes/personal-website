@@ -18,10 +18,11 @@ function About() {
               learning new things! Currently, I design, build, and deploy APIs
               and microservices at a mid-sized tech company in an agile
               development environment. I have expertise in programming languages
-              such as Rust, Python, and JavaScript/TypeScript. I also have a
-              solid understanding of the GNU/Linux environment, including strong
-              Bash scripting skills. I am a dedicated team player with technical
-              depth and a drive to deliver exceptional end products for clients.
+              such as Python, JavaScript/TypeScript, Rust, and C/C++. I also
+              have a solid understanding of the GNU/Linux environment, including
+              strong Bash scripting skills. I am a dedicated team player with
+              technical depth and a drive to deliver exceptional end products
+              for clients.
             </p>
             <p>
               I am currently in the early stages of designing and building a
@@ -32,7 +33,7 @@ function About() {
               sandbox.
             </p>
             <p>
-              I have also contributing to a number of FOSS (free open source
+              I have also contributed to a number of FOSS (free open source
               software) projects in Rust. This includes Servo, a browser engine,
               and rs-probe for embedded systems projects.
             </p>
