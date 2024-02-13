@@ -14,23 +14,20 @@ function About() {
           <div className="col-md-8">
             <p>
               Hi, I'm Josh! I am a highly motivated Software Engineer focused on
-              delivering scalable, reliable software. I am passionate about
-              learning new things! Currently, I design, build, and deploy APIs
-              and microservices at a mid-sized tech company in an agile
-              development environment. I have expertise in programming languages
-              such as Python, JavaScript/TypeScript, Rust, and C/C++. I also
-              have a solid understanding of the GNU/Linux environment, including
-              strong Bash scripting skills. I am a dedicated team player with
-              technical depth and a drive to deliver exceptional end products
-              for clients.
+              delivering scalable that's built to last. I am persistent when
+              faced with challenges and always open to learning new tech.
+              Currently, I design, build, and deploy containerized APIs and
+              microservices at a mid-sized tech company in an agile development
+              environment using Python. I also have a strong understanding of
+              the GNU/Linux environment and develop lower level applications
+              using Rust. I am a dedicated team player with technical depth and
+              a drive to deliver exceptional end products for clients.
             </p>
             <p>
-              I am currently in the early stages of designing and building a
-              video game, along with my own game engine, entirely in Rust. The
-              game is rendered using a Vulkan API wrapper for Rust called
-              Vulkano. The direction of the game is still unknown, but I am
-              leaning toward an online multiplayer particle-based physics
-              sandbox.
+              Lately, I have been developing my own video game and game engine
+              from scratch, built entirely in Rust. The game engine is built on
+              top of the Vulkan API for rendering and will be a 2D physics-based
+              fighting game.
             </p>
             <p>
               I have also contributed to a number of FOSS (free open source
