@@ -30,7 +30,7 @@ function About() {
               fighting game.
             </p>
             <p>
-              I have also contributed to a number of FOSS (free open source
+              I have also contributed to a few FOSS (free open source
               software) projects in Rust. This includes Servo, a browser engine,
               and rs-probe for embedded systems projects.
             </p>
