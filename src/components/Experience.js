@@ -5,7 +5,7 @@ function Experience() {
   const jobs = [
     {
       employer: "Corteva Agriscience",
-      jobTitle: "Software Engineer I",
+      jobTitle: "Sr. Software Engineer I",
       date: "April 2023 - Current",
       description: [
         "Managed unit-tested microservices that retrieve satellite imagery of farm fields, save in AWS RDS (PostgreSQL DB) and AWS S3 buckets, and serve using Flask API, AWS Lambda.",
