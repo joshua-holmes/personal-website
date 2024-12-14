@@ -5,13 +5,24 @@ function Projects() {
 
   const projects = [
     {
-      name: "Video Game in Rust using Vulkan API",
-      description: "A video game written entirely in Rust, using a custom-built game engine rendered with Vulkan API.",
+      name: "Unfinished Game Engine in Rust using Vulkan API",
+      description: "An incomplete 2D game engine, written using Rust and Vulkan, for falling sand games.",
       image: "./images/a-game.png",
       links:[
         {
           "name": "Github",
           "link": "https://github.com/joshua-holmes/unknown-game"
+        }
+      ]
+    },
+    {
+      name: "dap-projects.nvim (neovim plugin)",
+      description: "A very simple Neovim plugin which implements \"per-project\" nvim-dap debugger adapters and configurations.",
+      image: "./images/neovim.png",
+      links:[
+        {
+          "name": "Github",
+          "link": "https://github.com/joshua-holmes/dap-projects.nvim"
         }
       ]
     },
@@ -23,17 +34,6 @@ function Projects() {
         {
           "name": "Github",
           "link": "https://github.com/joshua-holmes/google-photos-metadata-fix"
-        }
-      ]
-    },
-    {
-      name: "Docker Template: Ruby on Rails",
-      description: "This project serves as a template that will allow you to toss your Ruby on Rails (can optionally include React frontend) application into a folder, configure a few settings, then quickly have a Dockerized app with it's own contained environment!",
-      image: "./images/docker-ror.jpg",
-      links: [
-        {
-          "name": "Github",
-          "link": "https://github.com/joshua-holmes/docker-template-ruby-on-rails"
         }
       ]
     },

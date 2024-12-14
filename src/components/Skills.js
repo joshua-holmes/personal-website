@@ -3,6 +3,7 @@ import TypingText from "./TypingText";
 function Skills() {
   
   const skills = [
+    "Zig",
     "Rust",
     "Python",
     "Node.js",
@@ -12,23 +13,18 @@ function Skills() {
     "C++",
     "Bash",
     "Ruby",
-    "API development",
+    "Linux",
+    "X11",
+    "Wayland",
     "Docker",
     "containerization",
     "AWS Lambda",
     "GCloud",
     "PostgreSQL",
-    "Redis",
     "MongoDB",
     "Firebase",
-    "SQL database design",
-    "NoSQL database design",
-    "Express.js",
-    "Flask",
-    "Ruby on Rails",
     "React",
     "Angular",
-    "Linux",
     "DevOps",
   ]
   

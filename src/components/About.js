@@ -13,26 +13,17 @@ function About() {
           </div>
           <div className="col-md-8">
             <p>
-              Hi, I'm Josh! I am a highly motivated Software Engineer focused on
-              delivering scalable that's built to last. I am persistent when
-              faced with challenges and always open to learning new tech.
-              Currently, I design, build, and deploy containerized APIs and
-              microservices at a mid-sized tech company in an agile development
-              environment using Python. I also have a strong understanding of
-              the GNU/Linux environment and develop lower level applications
-              using Rust. I am a dedicated team player with technical depth and
-              a drive to deliver exceptional end products for clients.
+              Hi, I'm Josh! I am a passionate software developer, interested in
+              delivering innovative, performant software that's a joy to use for
+              customers, whether that's another developer or an end user. As an
+              engineer that is always learning new technologies, I have become a
+              versatile programmer that learns new technologies quickly and
+              makes educated decisions based on first-hand experience. While I
+              have programmed in a variety of domains, I tend to focus on
+              backend web development and systems/application development.
             </p>
             <p>
-              Lately, I have been developing my own video game and game engine
-              from scratch, built entirely in Rust. The game engine is built on
-              top of the Vulkan API for rendering and will be a 2D physics-based
-              fighting game.
-            </p>
-            <p>
-              I have also contributed to a few FOSS (free open source
-              software) projects in Rust. This includes Servo, a browser engine,
-              and rs-probe for embedded systems projects.
+              Lately, I've been having a great time contributing to open-source project, <a href="Machhttps://machengine.org/" target="_blank">Mach</a>. Mach is a modern game engine written in Zig that is pushing <a href="https://en.wikipedia.org/wiki/Entity_component_system" target="_blank">ECS</a> technology forward with the new <a href="https://machengine.org/docs/object/" target="_blank">Mach Object System</a>. I have primarily worked on native support with Linux display servers X11 and Wayland.
             </p>
             <p>
               I am also an experienced classical hornist and pianist, with over

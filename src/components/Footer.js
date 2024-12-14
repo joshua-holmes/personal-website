@@ -23,11 +23,6 @@ function Footer() {
                   <i className="fa fa-linkedin" aria-hidden="true"></i>
                 </a>
               </li>
-              <li>
-                <a href="https://www.youtube.com/@joshua-holmes" target="_blank" rel="noreferrer">
-                  <i className="fa fa-youtube" aria-hidden="true"></i>
-                </a>
-              </li>
             </ul>
           </div>
         </div>

@@ -7,29 +7,16 @@ function OpenSource() {
 
   const projects = [
     {
-      name: "Servo",
-      description: "The embeddable, independent, memory-safe, modular, parallel web rendering engine",
+      name: "Mach",
+      description: "For building high-performance, truly cross-platform, robust & modular games, visualizations, and desktop/mobile GUI apps.",
       contributions: [
-        "Worked on implementing flexbox in the layout engine",
+        "Working on native support with Linux display servers X11 and Wayland",
       ],
-      image: "./images/servo.png",
+      image: "./images/mach.svg",
       links: [
         {
           name: "Product Page",
-          link: "https://servo.org",
-        },
-      ],
-    },
-    {
-      name: "probe-rs/probe-rs",
-      description: "A modern, embedded debugging toolkit, written in Rust",
-      contributions: [
-        'Corrected misspelling of the word "occurred" across repo using Rust',
-      ],
-      links: [
-        {
-          name: "GitHub",
-          link: "https://github.com/probe-rs/probe-rs",
+          link: "https://machengine.org/",
         },
       ],
     },
