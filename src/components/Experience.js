@@ -8,10 +8,12 @@ function Experience() {
       jobTitle: "Sr. Software Engineer I",
       date: "April 2023 - Current",
       description: [
-        "Managed unit-tested microservices that retrieve satellite imagery of farm fields, save in AWS RDS (PostgreSQL DB) and AWS S3 buckets, and serve using Flask API, AWS Lambda.",
-        "Updated old code bases to modern development standards using Terraform and GitLab CI/CD pipeline to improve code base consistency, code smell, and cut development costs",
-        "Built frontend UI components using React/Typescript along with backend API routes and tests with Bottle/Pydantic for new Dynamic Structured Notes service",
-        "Developed scripts that run in CI/CD pipeline to manage the team's GitLab settings in one place with Python, Terraform, Docker, and Bash. Presented it to 50+ Engineering Managers and Product Development Managers.",
+        "Led team's transition to common Terraform and Python tooling for CI/CD pipeline, unit tests, code-base structure, and more",
+        "Created new backend service for generating client PDF reports with SQS queue, AWS Lambda and S3",
+        "Developed CI/CD automated scripts to manage the team's GitLab settings in one place with Python, Terraform, Docker, and Bash",
+        "Presented new tech features to key stakeholders",
+        "Provided knowledge across teams as a \"go-to\" source of information about Terraform, Python, and internal tooling/services",
+        "Maintained microservices to retrieve satellite imagery of farm fields, save in Postgres DB and AWS S3 buckets, and serve via API, using AWS Lambda, S3, RDS and Python",
       ],
     },
     {
@@ -32,6 +34,7 @@ function Experience() {
       description: [
         "Direct report to President, managed and budgeted wide variety of internal projects",
         "Designed, refined, and automated high level process workflows using AgencyBloc CRM and created keystroke level procedural documentation",
+        "Improved data integrity and cleaned large amounts of data using Python and Excel",
         "Designed, built, and implemented automated systems and databases using Python, MS Access, and Excel to track revenue in a highly complex financial landscape",
         "Built commission processing database and data entry system in Access from scratch",
       ],
