@@ -13,7 +13,7 @@ function Experience() {
         "Developed CI/CD automated scripts to manage the team's GitLab settings in one place with Python, Terraform, Docker, and Bash",
         "Presented new tech features to key stakeholders",
         "Provided knowledge across teams as a \"go-to\" source of information about Terraform, Python, and internal tooling/services",
-        "Maintained microservices to retrieve satellite imagery of farm fields, save in Postgres DB and AWS S3 buckets, and serve via API, using AWS Lambda, S3, RDS and Python",
+        "Maintained unit-tested, containerized microservices to retrieve satellite imagery of farm fields, save in Postgres DB and AWS S3 buckets, and serve via API, using AWS Lambda with Python",
       ],
     },
     {
