@@ -23,7 +23,7 @@ function About() {
               backend web development and systems/application development.
             </p>
             <p>
-              Lately, I've been having a great time contributing to open-source project, <a href="Machhttps://machengine.org/" target="_blank">Mach</a>. Mach is a modern game engine written in Zig that is pushing <a href="https://en.wikipedia.org/wiki/Entity_component_system" target="_blank">ECS</a> technology forward with the new <a href="https://machengine.org/docs/object/" target="_blank">Mach Object System</a>. I have primarily worked on native support with Linux display servers X11 and Wayland.
+              Lately, I've been having a great time contributing to open-source project, <a href="Machhttps://machengine.org/" target="_blank" rel="noreferrer">Mach</a>. Mach is a modern game engine written in Zig that is pushing <a href="https://en.wikipedia.org/wiki/Entity_component_system" target="_blank" rel="noreferrer">ECS</a> technology forward with the new <a href="https://machengine.org/docs/object/" target="_blank" rel="noreferrer">Mach Object System</a>. I have primarily worked on native support with Linux display servers X11 and Wayland.
             </p>
             <p>
               I am also an experienced classical hornist and pianist, with over
