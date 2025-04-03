@@ -2,10 +2,29 @@ import React from "react";
 import TypingText from "./TypingText";
 
 function OpenSource() {
-  const blurb =
-    "Being passionate about open source, I have recently started contributing to projects that I believe benefit the world and have even more potential to do so. Due to my involvement being recent, I have not accomplished much in the open source community yet, but am actively working to do so! Here are a list of some projects I have contributed to so far.";
-
   const projects = [
+    {
+      name: "Bevy",
+      description: "A refreshingly simple data-driven game engine built in Rust.",
+      contributions: [
+        "Reworking single-threaded data storage and communication with multi-threaded data in Bevy's ECS system",
+      ],
+      image: "./images/bevy_logo_dark.svg",
+      links: [
+        {
+          name: "Product Page",
+          link: "https://bevyengine.org/",
+        },
+        {
+          name: "Contributions",
+          link: "https://github.com/bevyengine/bevy/pulls?q=is%3Apr+author%3Ajoshua-holmes+",
+        },
+        {
+          name: "Technical Implementation Plan",
+          link: "https://github.com/bevyengine/bevy/issues/17667",
+        },
+      ],
+    },
     {
       name: "Mach",
       description: "For building high-performance, truly cross-platform, robust & modular games, visualizations, and desktop/mobile GUI apps.",
@@ -17,6 +36,10 @@ function OpenSource() {
         {
           name: "Product Page",
           link: "https://machengine.org/",
+        },
+        {
+          name: "Contributions",
+          link: "https://github.com/hexops/mach/pulls?q=is%3Apr+author%3Ajoshua-holmes",
         },
       ],
     },
@@ -45,7 +68,6 @@ function OpenSource() {
         Open Source Contributions
       </TypingText>
       <div className="container">
-        <p className="section-description">{blurb}</p>
         <div className="row">
           {projects.map(({ name, contributions, image, linkTags, description }) => (
             <div key={name} className="project shadow-large">

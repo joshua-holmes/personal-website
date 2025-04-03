@@ -14,16 +14,33 @@ function About() {
           <div className="col-md-8">
             <p>
               Hi, I'm Josh! I am a passionate software developer, interested in
-              delivering innovative, performant software that's a joy to use for
-              customers, whether that's another developer or an end user. As an
-              engineer that is always learning new technologies, I have become a
+              delivering performant software that's a joy for customers to use,
+              whether that's another developer or an end user. As an engineer
+              that is always learning new technologies, I have become a
               versatile programmer that learns new technologies quickly and
-              makes educated decisions based on first-hand experience. While I
-              have programmed in a variety of domains, I tend to focus on
-              backend web development and systems/application development.
+              makes educated decisions based on first-hand experience.
             </p>
             <p>
-              Lately, I've been having a great time contributing to open-source project, <a href="Machhttps://machengine.org/" target="_blank" rel="noreferrer">Mach</a>. Mach is a modern game engine written in Zig that is pushing <a href="https://en.wikipedia.org/wiki/Entity_component_system" target="_blank" rel="noreferrer">ECS</a> technology forward with the new <a href="https://machengine.org/docs/object/" target="_blank" rel="noreferrer">Mach Object System</a>. I have primarily worked on native support with Linux display servers X11 and Wayland.
+              Lately, I've been having a great time contributing to open-source
+              project,{" "}
+              <a
+                href="https://bevyengine.org/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Bevy
+              </a>
+              . Bevy is a refreshingly simple data-driven game engine built in
+              Rust. I have been reworking single-threaded data storage and
+              communication with multi-threaded data in Bevy's{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/Entity_component_system"
+                target="_blank"
+                rel="noreferrer"
+              >
+                ECS
+              </a>{" "}
+              system.
             </p>
             <p>
               I am also an experienced classical hornist and pianist, with over

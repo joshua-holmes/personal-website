@@ -2,11 +2,21 @@ import React from "react";
 import TypingText from "./TypingText";
 
 function Projects() {
-
   const projects = [
     {
-      name: "Unfinished Game Engine in Rust using Vulkan API",
-      description: "An incomplete 2D game engine, written using Rust and Vulkan, for falling sand games.",
+      name: "Signature Verification API Example",
+      description: "A project to demonstrate a web service that proves ownership of a private key using Rust",
+      image: "./images/coding-icon.jpg",
+      links:[
+        {
+          "name": "Github",
+          "link": "https://github.com/joshua-holmes/signature-verification-api-example"
+        }
+      ]
+    },
+    {
+      name: "Sand Falling Engine in Rust using Vulkan API",
+      description: "An incomplete render/physics engine written entirely in Rust with Vulkan API",
       image: "./images/a-game.png",
       links:[
         {
@@ -17,23 +27,12 @@ function Projects() {
     },
     {
       name: "dap-projects.nvim (neovim plugin)",
-      description: "A very simple Neovim plugin which implements \"per-project\" nvim-dap debugger adapters and configurations.",
+      description: "A very simple Neovim plugin which implements \"per-project\" nvim-dap debugger adapters and configurations",
       image: "./images/neovim.png",
       links:[
         {
           "name": "Github",
           "link": "https://github.com/joshua-holmes/dap-projects.nvim"
-        }
-      ]
-    },
-    {
-      name: "Google Photos Metadata Fix",
-      description: "This is a command line application that fixes metadata for photos exported from Google Photos.",
-      image: "./images/metadata-fix.jpg",
-      links:[
-        {
-          "name": "Github",
-          "link": "https://github.com/joshua-holmes/google-photos-metadata-fix"
         }
       ]
     },
