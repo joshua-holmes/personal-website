@@ -7,7 +7,9 @@ function OpenSource() {
       name: "Bevy",
       description: "A refreshingly simple data-driven game engine built in Rust.",
       contributions: [
-        "Reworking single-threaded data storage and communication with multi-threaded data in Bevy's ECS system",
+        "Led redesign of single-threaded data store and multi-threaded communication, which should improve performance significantly when project is complete due to the bulk of the game's computational workload not being shared with the main event loop",
+        "Communicated with 30+ stakeholders to identify problems to craft a fitting solution, turning a contentious solution that would have complicated the API, into a simpler solution that all stakeholders agree on and solves 2x more problems than the original",
+        "Documented new design and detailed technical implementation plans, resulting progress tracking for stakeholders and a clear vision for implementers",
       ],
       image: "./images/bevy_logo_dark.svg",
       links: [
@@ -29,7 +31,7 @@ function OpenSource() {
       name: "Mach",
       description: "For building high-performance, truly cross-platform, robust & modular games, visualizations, and desktop/mobile GUI apps.",
       contributions: [
-        "Working on native support with Linux display servers X11 and Wayland",
+        "Reintroduced native Linux support with X11 and Wayland using Zig after it had been scrapped due to lack of Linux developers, resulting in support for all major desktop platforms",
       ],
       image: "./images/mach.svg",
       links: [

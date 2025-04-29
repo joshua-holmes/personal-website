@@ -13,10 +13,9 @@ function About() {
           </div>
           <div className="col-md-8">
             <p>
-              Hi, I'm Josh! I am a passionate software developer, interested in
-              delivering performant software that's a joy for customers to use,
-              whether that's another developer or an end user. As an engineer
-              that is always learning new technologies, I have become a
+              Hi, I'm Josh! Highly experienced Senior Software Engineer with 3+
+              years experience in Rust, Zig, C/C++, Python and TypeScript. As an
+              engineer that is always learning new technologies, I have become a
               versatile programmer that learns new technologies quickly and
               makes educated decisions based on first-hand experience.
             </p>
