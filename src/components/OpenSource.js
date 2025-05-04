@@ -5,13 +5,12 @@ function OpenSource() {
   const projects = [
     {
       name: "Bevy",
-      description: "A refreshingly simple data-driven game engine built in Rust.",
+      description:
+        "A refreshingly simple data-driven game engine built in Rust.",
       contributions: [
-        "Led redesign of single-threaded data store and multi-threaded communication, which should improve performance significantly when project is complete due to the bulk of the game's computational workload not being shared with the main event loop",
-        "Communicated with 30+ stakeholders to identify problems to craft a fitting solution, turning a contentious solution that would have complicated the API, into a simpler solution that all stakeholders agree on and solves 2x more problems than the original",
-        "Documented new design and detailed technical implementation plans, resulting progress tracking for stakeholders and a clear vision for implementers",
+        "Led redesign of single-threaded data store and communication with multi-threaded data",
       ],
-      image: "./images/bevy_logo_dark.svg",
+      image: "./images/bevy.png",
       links: [
         {
           name: "Product Page",
@@ -29,7 +28,8 @@ function OpenSource() {
     },
     {
       name: "Mach",
-      description: "For building high-performance, truly cross-platform, robust & modular games, visualizations, and desktop/mobile GUI apps.",
+      description:
+        "For building high-performance, truly cross-platform, robust & modular games, visualizations, and desktop/mobile GUI apps.",
       contributions: [
         "Reintroduced native Linux support with X11 and Wayland using Zig after it had been scrapped due to lack of Linux developers, resulting in support for all major desktop platforms",
       ],
@@ -71,30 +71,30 @@ function OpenSource() {
       </TypingText>
       <div className="container">
         <div className="row">
-          {projects.map(({ name, contributions, image, linkTags, description }) => (
-            <div key={name} className="project shadow-large">
-              <div className="project-image">
-                <img
-                  src={image || "./images/coding-icon.jpg"}
-                  className="shadow-large"
-                  alt={name}
-                />
-              </div>
-              <div className="project-info">
-                <h3>{name}</h3>
-                <h4>{description}</h4>
-                <ul>
+          {projects.map(
+            ({ name, contributions, image, linkTags, description }) => (
+              <div key={name} className="project shadow-large">
+                <div className="project-image">
+                  <img
+                    src={image || "./images/coding-icon.jpg"}
+                    className="shadow-large"
+                    alt={name}
+                  />
+                </div>
+                <div className="project-info">
+                  <h3>{name}</h3>
+                  <h4>{description}</h4>
                   {contributions.map((item) => (
-                    <li key={item}>{item}</li>
+                    <p key={item}>{item}</p>
                   ))}
-                </ul>
-                <br/>
-                {linkTags}
+                  <br />
+                  {linkTags}
+                </div>
+                {/* <!-- End .project-info --> */}
+                {/* <!-- End .project-image --> */}
               </div>
-              {/* <!-- End .project-info --> */}
-              {/* <!-- End .project-image --> */}
-            </div>
-          ))}
+            ),
+          )}
         </div>
       </div>
     </div>
